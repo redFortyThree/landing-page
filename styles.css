@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
+    flex-wrap: wrap;
 }
 
 .links {
@@ -23,4 +24,24 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.row-two {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.header-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 175px;
+    
+}
+
+img {
+    height: 200px;
+    width: auto;
 }
