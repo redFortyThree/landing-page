@@ -1,18 +1,15 @@
 *{
-   
-    font-family:'Courier New', Courier, monospace;
+   font-family:'Roboto' , sans-serif;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-}
+
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1f2937;
-    
     align-items: center;
-    
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-shrink: 1;
 }
 
 .links {
@@ -35,26 +32,25 @@ a {
 
 .row-two {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 100px;
+    padding: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
 }
 
 .header-text {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
-   
-   
-    
-    
 }
 button {
     background-color: #3882f6;
     margin-top: 15px;
 }
-img {
+.large-image {
     height: 235px;
     width: auto;
    
@@ -69,4 +65,30 @@ img {
 .inspire {
      font-size: 18px;
     color: #e5e7eb;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.C2-text {
+    font-size: 36px;
+    weight: 900;
+    padding: 70px;
+}
+
+.small-image {
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
