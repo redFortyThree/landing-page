@@ -1,11 +1,18 @@
 *{
+   
     font-family:'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    flex-direction: column;
 }
 .header {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
-    flex-wrap: wrap;
+    
+    align-items: center;
+    
 }
 
 .links {
@@ -28,20 +35,38 @@ a {
 
 .row-two {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 30px;
-    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 100px;
 }
 
 .header-text {
     display: flex;
     flex-wrap: wrap;
-    width: 175px;
+    width: 400px;
+   
+   
+    
     
 }
-
+button {
+    background-color: #3882f6;
+    margin-top: 15px;
+}
 img {
-    height: 200px;
+    height: 235px;
     width: auto;
+   
+}
+
+.greeting {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.inspire {
+     font-size: 18px;
+    color: #e5e7eb;
 }
