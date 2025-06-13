@@ -53,6 +53,8 @@ button {
 .large-image {
     height: 235px;
     width: auto;
+    padding: 30px;
+    padding-right: 0;
    
 }
 
@@ -77,18 +79,31 @@ button {
 
 .C2-text {
     font-size: 36px;
-    weight: 900;
+    font-weight: 900;
     padding: 70px;
 }
 
 .small-image {
-    height: 100px;
-    width: auto;
-    padding: 10px;
+    height: auto;
+    width: 150px;;
+    padding:0;
     
 }
 .image-container {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
+.image-with-sub-text {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+
