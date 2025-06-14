@@ -8,8 +8,9 @@
     background-color: #1f2937;
     align-items: center;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 60px;
     flex-shrink: 1;
+    
 }
 
 .links {
@@ -37,7 +38,8 @@ a {
     background-color: #1f2937;
     padding: 70px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 30px;
+    
     
 }
 
@@ -48,13 +50,19 @@ a {
 }
 button {
     background-color: #3882f6;
+    padding: 6px;
     margin-top: 15px;
+    border-radius: 7px;
+    color: #f9faf8
 }
 .large-image {
     height: 235px;
     width: auto;
     padding: 30px;
-    padding-right: 0;
+    padding-right: 30px;
+    border-radius: 40px;
+    
+    
    
 }
 
