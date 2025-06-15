@@ -100,11 +100,12 @@ button {
 }
 .image-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
     padding-left: 100px;
     padding-right: 100px;
+    align-items: flex-start;
 }
 
 .image-with-sub-text {
@@ -112,6 +113,8 @@ button {
     width: 150px;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
+    gap: 10px;
     
    
 }
