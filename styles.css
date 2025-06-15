@@ -1,7 +1,10 @@
 *{
    font-family:'Roboto' , sans-serif;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -53,6 +56,8 @@ button {
     padding: 6px;
     margin-top: 15px;
     border-radius: 7px;
+    border-style: solid;
+    border-color: #1f2937;
     color: #f9faf8
 }
 .large-image {
@@ -130,5 +135,42 @@ button {
     background-color:#e5e7eb;
     margin-top: 30px;
     padding: 100px;
+}
+
+.calve-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.bottom-button{
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    margin-bottom: 14px;
+    border-radius: 7px;
+    color: #f9faf8
+
+}
+
+.bottom-text-bold {
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+footer {
+    background-color: #1f2937;
+    color:#F9FAF8;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 200;
 }
 
