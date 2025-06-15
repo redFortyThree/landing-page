@@ -95,6 +95,7 @@ button {
     height: auto;
     width: 150px;;
     padding:0;
+    border-radius: 5%;
     
 }
 .image-container {
