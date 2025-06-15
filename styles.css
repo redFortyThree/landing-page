@@ -99,32 +99,46 @@ button {
 
 .small-image {
     height: auto;
-    width: 150px;;
+    width: 200px;
     padding:0;
-    border-radius: 5%;
+    border-radius: 5% ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     
 }
-.image-container {
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+}
+.card-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     /*.bottom-button: wrap;*/
     padding-left: 100px;
     padding-right: 100px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .image-with-sub-text {
     display: flex;
-    width: 150px;
+    width: 200px;
     flex-direction: column;
     justify-content: center;
-    align-content: space-around;
+    align-items: center;
     gap: 10px;
-    padding: 1%;
+    padding:0;
     border-radius: 5px;
+    font-weight: 200;
+    background-color: white;
     
    
+}
+.sub-text {
+    padding: 5px;
 }
 
 .leg {
